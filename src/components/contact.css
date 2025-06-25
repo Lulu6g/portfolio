@@ -1,0 +1,40 @@
+.contact-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact-box {
+  background-color: #1e293b;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  color: #e2e8f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-box h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.contact-box p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-box a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
